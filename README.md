@@ -9,6 +9,10 @@ For details, please check the official website of Go2Shell.
 2. The initial script there would likely to be "cd %PATH%; clear; pwd"
 3. Backup your current settings and then customize it with the shell script knowledge you have.  
    Here is the script I used to enter the virtual environment that exits under venv subfolder.  
-   *cd %PATH%; clear; pwd; if test -d venv; then echo "Venv found and enter python virtual environment "; source venv/bin/activate; else echo "Normal mode"; fi;*  
+   ```bash
+   
+   cd %PATH%; clear; pwd; if test -d venv; then echo "Venv found and enter python virtual environment "; source venv/bin/activate; else echo "Normal mode"; fi;  
+   
+   ```
    The reason why I use it like this is that I adopted the best practice from pycharm virtuanl environment management by creating venv folder in each project.  
    
