@@ -17,3 +17,5 @@ For details, please check the official website of Go2Shell.
    The reason why I use it like this is that I adopted the best practice from pycharm virtuanl environment management by creating venv folder in each project.  
    
 ## useful note for router
+
+## useful note for cooking
