@@ -19,5 +19,3 @@ For details, please check the official website of Go2Shell.
 ## useful note for router
 
 ## useful note for cooking
-
-## useful note for babysitting
